@@ -51,8 +51,6 @@ Specify your project's license here, for example, MIT, GPL, Apache, etc.
 
 Should you have any questions or wish to contribute, please contact:
 
-- [Your Full Name]
-- [Your Email Address]
-```
-
-Just replace `[Your Full Name]`, `[Your Email Address]`, and `Specify your project's license here` with the actual details and save it as `README.md` in your GitHub repository.
+- Aditya Ojha
+- aditya.ojha@nyu.edu
+  
