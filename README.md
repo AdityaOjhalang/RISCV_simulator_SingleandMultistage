@@ -43,10 +43,6 @@ The output consists of detailed execution results for each test case, showcasing
 
 We welcome contributions to the RV32I Simulator. If you're looking to contribute, please adhere to the project's coding standards and include tests for new features or bug fixes.
 
-## License
-
-Specify your project's license here, for example, MIT, GPL, Apache, etc.
-
 ## Contact
 
 Should you have any questions or wish to contribute, please contact:
