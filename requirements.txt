@@ -1,2 +1,13 @@
-riscv-model==0.6.6
-bitstring~=4.0.1
+## Dependencies
+
+Before running the RV32I Simulator, ensure that the following dependencies are installed:
+
+- `riscv-model==0.6.6`
+- `bitstring~=4.0.1`
+
+You can install these dependencies using `pip` with the following commands:
+
+```sh
+
+pip install riscv-model==0.6.6
+pip install bitstring~=4.0.1
