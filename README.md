@@ -1,4 +1,3 @@
-I apologize for the misunderstanding. Below is the complete GitHub-flavored markdown text for your README. You can directly copy and paste this into your GitHub repository's README.md file:
 
 ```markdown
 # RV32I Simulator
