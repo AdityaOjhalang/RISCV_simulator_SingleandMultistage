@@ -14,8 +14,8 @@ The simulator depends on the following Python packages:
 These can be installed via pip using the following commands:
 
 ```sh
-pip install riscv-model==0.6.6
-pip install bitstring~=4.0.1
+pip3 install riscv-model==0.6.6
+pip3 install bitstring~=4.0.1
 ```
 
 Ensure that your pip is up-to-date to avoid any installation issues.

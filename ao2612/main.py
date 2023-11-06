@@ -33,7 +33,7 @@ def main():
     
     # Use the script's parent directory to build the correct paths for input and output directories
     input_dir = os.path.join(script_dir, args.inputdir)
-    output_dir = os.path.join(script_dir, "output_netID")
+    output_dir = os.path.join(script_dir, "output_ao2612")
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)

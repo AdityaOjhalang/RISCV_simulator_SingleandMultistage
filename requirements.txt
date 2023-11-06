@@ -9,5 +9,5 @@ You can install these dependencies using `pip` with the following commands:
 
 ```sh
 
-pip install riscv-model==0.6.6
-pip install bitstring~=4.0.1
+pip3 install riscv-model==0.6.6
+pip3 install bitstring~=4.0.1
