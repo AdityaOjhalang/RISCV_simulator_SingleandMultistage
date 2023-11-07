@@ -30,6 +30,7 @@ class Core(object):
             ipc = 1.0 / cpi if cpi != float('inf') else 0.0
 
             result_format = f"{self.stages} Core Performance Metrics-----------------------------\n" \
+                            f"Instructions: {self.state.IF.instruction_count}\n"\
                             f"Number of cycles taken: {self.cycle}\n" \
                             f"Cycles per instruction: {cpi:.2f}\n" \
                             f"Instructions per cycle: {ipc:.2f}\n"
