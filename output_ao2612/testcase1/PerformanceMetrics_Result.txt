@@ -3,3 +3,8 @@ Instructions: 39
 Number of cycles taken: 40
 Cycles per instruction: 1.03
 Instructions per cycle: 0.98
+Five Stage Core Performance Metrics-----------------------------
+Instructions: 39
+Number of cycles taken: 46
+Cycles per instruction: 1.18
+Instructions per cycle: 0.85

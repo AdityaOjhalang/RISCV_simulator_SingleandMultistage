@@ -2,24 +2,31 @@ import argparse
 import os
 
 from models import DataMem, InsMem
-from rv32i_simulator import SingleStageCore
+from rv32i_simulator import SingleStageCore, FiveStageCore
 
 def process_test_case(test_case_path, output_path):
     # Instantiate memories with the path to the test case files
     imem = InsMem("Imem", test_case_path)
     dmem_ss = DataMem("SS", test_case_path)
+    dmem_fs = DataMem("FS", test_case_path)
 
     # Create the core simulation with the instruction and data memories
     # Pass the output_path to ensure that outputs are directed to the right folder
     ssCore = SingleStageCore(output_path, imem, dmem_ss)
+    fsCore = FiveStageCore(output_path, imem, dmem_fs)
 
     # Run the simulation
-    while not ssCore.halted:
-        ssCore.step()
+    while not (ssCore.halted and fsCore.halted):
+        if not ssCore.halted:
+            ssCore.step()
+        if not fsCore.halted:
+            fsCore.step()
 
     # Output the data memory and other results to the output directory
     dmem_ss.output_data_mem(output_path)
+    dmem_fs.output_data_mem(output_path)
     ssCore.calculate_performance_metrics(output_path)
+    fsCore.calculate_performance_metrics(output_path)
 
 def main():
     # Create an argument parser for command-line options
