@@ -51,7 +51,7 @@ ID.instruction_bytes: 00000000010000000000000100000011
 ID.halt: False
 
 EX.nop: False
-EX.instruction_ob: <instructions.LW object at 0x10560fac0>
+EX.instruction_ob: <instructions.LW object at 0x1035eb8b0>
 EX.operand1: 0
 EX.operand2: 0
 EX.store_data: 0
@@ -90,7 +90,7 @@ ID.instruction_bytes: 00000000001000001000000110110011
 ID.halt: False
 
 EX.nop: False
-EX.instruction_ob: <instructions.LW object at 0x105177fa0>
+EX.instruction_ob: <instructions.LW object at 0x10309bfa0>
 EX.operand1: 0
 EX.operand2: 4
 EX.store_data: 0
@@ -101,7 +101,7 @@ EX.write_back_enable: True
 EX.halt: False
 
 MEM.nop: False
-MEM.instruction_ob: <instructions.LW object at 0x10573ca30>
+MEM.instruction_ob: <instructions.LW object at 0x103718a30>
 MEM.data_address: 0
 MEM.store_data: 0
 MEM.write_register_addr: 1
@@ -129,7 +129,7 @@ ID.instruction_bytes: 00000000001000001000000110110011
 ID.halt: False
 
 EX.nop: True
-EX.instruction_ob: <instructions.ADD object at 0x1056bc100>
+EX.instruction_ob: <instructions.ADD object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 0
 EX.store_data: 0
@@ -140,7 +140,7 @@ EX.write_back_enable: True
 EX.halt: False
 
 MEM.nop: False
-MEM.instruction_ob: <instructions.LW object at 0x105753640>
+MEM.instruction_ob: <instructions.LW object at 0x10372f640>
 MEM.data_address: 4
 MEM.store_data: 0
 MEM.write_register_addr: 2
@@ -150,7 +150,7 @@ MEM.write_back_enable: True
 MEM.halt: False
 
 WB.nop: False
-WB.instruction_ob: <instructions.LW object at 0x105760880>
+WB.instruction_ob: <instructions.LW object at 0x10373c880>
 WB.store_data: 1431655765
 WB.write_register_addr: 1
 WB.write_back_enable: True
@@ -168,7 +168,7 @@ ID.instruction_bytes: 00000000001100000010010000100011
 ID.halt: False
 
 EX.nop: False
-EX.instruction_ob: <instructions.ADD object at 0x10573e410>
+EX.instruction_ob: <instructions.ADD object at 0x10371a410>
 EX.operand1: 1431655765
 EX.operand2: 858993459
 EX.store_data: 0
@@ -179,7 +179,7 @@ EX.write_back_enable: True
 EX.halt: False
 
 MEM.nop: True
-MEM.instruction_ob: <instructions.LW object at 0x105753640>
+MEM.instruction_ob: <instructions.LW object at 0x10372f640>
 MEM.data_address: 4
 MEM.store_data: 0
 MEM.write_register_addr: 2
@@ -189,7 +189,7 @@ MEM.write_back_enable: True
 MEM.halt: False
 
 WB.nop: False
-WB.instruction_ob: <instructions.LW object at 0x105763850>
+WB.instruction_ob: <instructions.LW object at 0x10373f850>
 WB.store_data: 858993459
 WB.write_register_addr: 2
 WB.write_back_enable: True
@@ -207,7 +207,7 @@ ID.instruction_bytes: 11111111111111111111111111111111
 ID.halt: False
 
 EX.nop: False
-EX.instruction_ob: <instructions.SW object at 0x1056bc100>
+EX.instruction_ob: <instructions.SW object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 8
 EX.store_data: 2290649224
@@ -218,7 +218,7 @@ EX.write_back_enable: False
 EX.halt: False
 
 MEM.nop: False
-MEM.instruction_ob: <instructions.ADD object at 0x105763a60>
+MEM.instruction_ob: <instructions.ADD object at 0x10373fa60>
 MEM.data_address: 0
 MEM.store_data: 2290649224
 MEM.write_register_addr: 3
@@ -228,7 +228,7 @@ MEM.write_back_enable: True
 MEM.halt: False
 
 WB.nop: True
-WB.instruction_ob: <instructions.LW object at 0x105763850>
+WB.instruction_ob: <instructions.LW object at 0x10373f850>
 WB.store_data: 858993459
 WB.write_register_addr: 2
 WB.write_back_enable: True
@@ -246,7 +246,7 @@ ID.instruction_bytes: 11111111111111111111111111111111
 ID.halt: False
 
 EX.nop: True
-EX.instruction_ob: <instructions.SW object at 0x1056bc100>
+EX.instruction_ob: <instructions.SW object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 8
 EX.store_data: 2290649224
@@ -257,7 +257,7 @@ EX.write_back_enable: False
 EX.halt: False
 
 MEM.nop: False
-MEM.instruction_ob: <instructions.SW object at 0x105760d60>
+MEM.instruction_ob: <instructions.SW object at 0x10373cd60>
 MEM.data_address: 8
 MEM.store_data: 2290649224
 MEM.write_register_addr: 0
@@ -267,7 +267,7 @@ MEM.write_back_enable: False
 MEM.halt: False
 
 WB.nop: False
-WB.instruction_ob: <instructions.ADD object at 0x105761660>
+WB.instruction_ob: <instructions.ADD object at 0x10373d660>
 WB.store_data: 2290649224
 WB.write_register_addr: 3
 WB.write_back_enable: True
@@ -285,7 +285,7 @@ ID.instruction_bytes: 11111111111111111111111111111111
 ID.halt: False
 
 EX.nop: True
-EX.instruction_ob: <instructions.SW object at 0x1056bc100>
+EX.instruction_ob: <instructions.SW object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 8
 EX.store_data: 2290649224
@@ -296,7 +296,7 @@ EX.write_back_enable: False
 EX.halt: False
 
 MEM.nop: True
-MEM.instruction_ob: <instructions.SW object at 0x105760d60>
+MEM.instruction_ob: <instructions.SW object at 0x10373cd60>
 MEM.data_address: 8
 MEM.store_data: 2290649224
 MEM.write_register_addr: 0
@@ -306,7 +306,7 @@ MEM.write_back_enable: False
 MEM.halt: False
 
 WB.nop: False
-WB.instruction_ob: <instructions.SW object at 0x105763100>
+WB.instruction_ob: <instructions.SW object at 0x10373f100>
 WB.store_data: 0
 WB.write_register_addr: 0
 WB.write_back_enable: False
@@ -324,7 +324,7 @@ ID.instruction_bytes: 11111111111111111111111111111111
 ID.halt: False
 
 EX.nop: True
-EX.instruction_ob: <instructions.SW object at 0x1056bc100>
+EX.instruction_ob: <instructions.SW object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 8
 EX.store_data: 2290649224
@@ -335,7 +335,7 @@ EX.write_back_enable: False
 EX.halt: False
 
 MEM.nop: True
-MEM.instruction_ob: <instructions.SW object at 0x105760d60>
+MEM.instruction_ob: <instructions.SW object at 0x10373cd60>
 MEM.data_address: 8
 MEM.store_data: 2290649224
 MEM.write_register_addr: 0
@@ -345,7 +345,7 @@ MEM.write_back_enable: False
 MEM.halt: False
 
 WB.nop: True
-WB.instruction_ob: <instructions.SW object at 0x105763100>
+WB.instruction_ob: <instructions.SW object at 0x10373f100>
 WB.store_data: 0
 WB.write_register_addr: 0
 WB.write_back_enable: False
@@ -363,7 +363,7 @@ ID.instruction_bytes: 11111111111111111111111111111111
 ID.halt: False
 
 EX.nop: True
-EX.instruction_ob: <instructions.SW object at 0x1056bc100>
+EX.instruction_ob: <instructions.SW object at 0x103698100>
 EX.operand1: 0
 EX.operand2: 8
 EX.store_data: 2290649224
@@ -374,7 +374,7 @@ EX.write_back_enable: False
 EX.halt: False
 
 MEM.nop: True
-MEM.instruction_ob: <instructions.SW object at 0x105760d60>
+MEM.instruction_ob: <instructions.SW object at 0x10373cd60>
 MEM.data_address: 8
 MEM.store_data: 2290649224
 MEM.write_register_addr: 0
@@ -384,7 +384,7 @@ MEM.write_back_enable: False
 MEM.halt: False
 
 WB.nop: True
-WB.instruction_ob: <instructions.SW object at 0x105763100>
+WB.instruction_ob: <instructions.SW object at 0x10373f100>
 WB.store_data: 0
 WB.write_register_addr: 0
 WB.write_back_enable: False
